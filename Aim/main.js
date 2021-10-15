@@ -32,10 +32,10 @@ document.addEventListener('mousemove', mousemovemethod);
 title = "Plonk";
 
 description = `
- Move the mouse to move the 
- target & [Click the mouse] 
- when the red box overlaps 
-     with the target!
+     Move with mouse
+    [Click the mouse] 
+    when the white box
+ collides with the target
 `;
 
 characters = [
@@ -66,7 +66,7 @@ const G = {
 
 options = {
   viewSize: {x: G.WIDTH, y: G.HEIGHT},
-  seed: 1,
+  seed: 2,
   isPlayingBgm: true,
   isCapturing: true,
   isCapturingGameCanvasOnly: true,
